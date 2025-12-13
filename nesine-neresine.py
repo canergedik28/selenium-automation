@@ -38,7 +38,7 @@ class NesineAutomation:
                                         for (var i=0; i<newData.length; i++){
                                             console.log(newData[i]);
                                             let item = document.querySelector('div[data-mid="'+newData[i]+'"][data-ocid="2"]');
-                                            sleep(500);
+                                            await sleep(500);
                                             item.click();
                                             // sleep(200);
                                             //console.log(newData[i]);
@@ -87,6 +87,7 @@ if __name__  ==  '__main__':
         
 
          
+
 
 
 
