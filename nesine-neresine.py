@@ -13,7 +13,7 @@ class NesineAutomation:
         self.chrome_options.add_experimental_option('useAutomationExtension', False)
         self.chrome_options.add_argument('--disable-gpu')
         self.chrome_options.add_argument('--log-level=1')
-        self.chrome_options.add_argument('user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"')
+        self.chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36')
         self.chrome_options.add_experimental_option("detach", True)
         self.pageLink = 'https://www.nesine.com/'
         self.driver = webdriver.Chrome(options=self.chrome_options,executable_path=self.chromeDriverPath) 
@@ -87,5 +87,6 @@ if __name__  ==  '__main__':
         
 
          
+
 
 
