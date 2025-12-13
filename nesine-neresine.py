@@ -24,7 +24,7 @@ class NesineAutomation:
                                 return new Promise(resolve => setTimeout(resolve, ms));
                         }
                         async function clickFunction(){
-                            var dataItems = [1,2,3,4,5,6,7,8,9,10];
+                            var dataItems = [1,2,3];
                             var newData = [];
                             var itemCount  = 1;                    
                             while(dataItems.length != 0){
@@ -87,4 +87,5 @@ if __name__  ==  '__main__':
         
 
          
+
 
