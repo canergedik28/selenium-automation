@@ -24,7 +24,7 @@ class NesineAutomation:
                                 return new Promise(resolve => setTimeout(resolve, ms));
                         }
                         async function clickFunction(){
-                            var dataItems = [1,2,3,4];
+                            var dataItems = [1,2,3,4]; // test etmek için yazdım ciddi düşünenler storage vs kullanarak geliştirebilir
                             var newData = [];
                             var itemCount  = 1;                    
                             while(dataItems.length != 0){
@@ -50,8 +50,6 @@ class NesineAutomation:
                                                 itemCount = 1;
                                                 await sleep(15000);
                                                 window.location.reload();
-                                                await sleep(5000);
-                                                
                                             }
                                             await sleep(1000);
                                             itemCount++;
@@ -87,6 +85,7 @@ if __name__  ==  '__main__':
         
 
          
+
 
 
 
